@@ -66,7 +66,7 @@ def main():
         print("6. Update Account Information")
         print("7. View Account Summary")
         print("8. View All Accounts")
-        print("9. Exit")
+  
         
         choice = input("Choose an option (1-9): ").strip()
         
@@ -108,14 +108,7 @@ def main():
             from_account = input("Enter sender's account number: ").strip()
             to_account = input("Enter receiver's account number: ").strip()
             amount = float(input("Enter the amount to transfer: "))
-            transfer_funds(acounts, from_account, to_account, amount) 
-        elif choice == '6':
-            account_number = input("Enter account number: ").strip()
-            if account_number in accounts:
-                new_name = input("Enter the new name for the account holder: ").strip()
-                accounts[account_number].update_name(new_name)
-            else:
-                print("Account not found.")
+            transfer_funds(acounts, from_account, to_account, amount)
         
         elif choice == '7':
             account_number = input("Enter account number: ").strip()
@@ -123,16 +116,8 @@ def main():
                 accounts[account_number].display_account_summary()
             else:
                 print("Account not found.")
+
         
-        elif choice == '8':
-            view_all_accounts(acounts)  
-        
-        elif choice == '9':
-            print("Exiting the banking system. Have a great day!")
-            break
-        
-        else:
-            print("Invalid option. Please try again.")
 
 if __name__ == '__main__':
     main()
