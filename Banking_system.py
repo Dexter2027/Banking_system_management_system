@@ -63,9 +63,7 @@ def main():
         print("3. Withdraw")
         print("4. Check Balance")
         print("5. Transfer Funds")
-        print("6. Update Account Information")
-        print("7. View Account Summary")
-        print("8. View All Accounts")
+        print("6. View Account Summary")
   
         
         choice = input("Choose an option (1-9): ").strip()
@@ -110,7 +108,7 @@ def main():
             amount = float(input("Enter the amount to transfer: "))
             transfer_funds(acounts, from_account, to_account, amount)
         
-        elif choice == '7':
+        elif choice == '6':
             account_number = input("Enter account number: ").strip()
             if account_number in accounts:
                 accounts[account_number].display_account_summary()
