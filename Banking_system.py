@@ -56,15 +56,6 @@ def transfer_funds(accounts, from_account, to_account, amount):
         print("One or both accounts do not exist.")
 
 
-def view_all_accounts(accounts):
-    if accounts:
-        print("\n--- All Accounts Summary ---")
-        for account_number, account in accounts.iteems():  
-            account.display_account_summary()
-    else:
-        print("No accounts found.")
-
-
 
 def main():
     accounts = {}
