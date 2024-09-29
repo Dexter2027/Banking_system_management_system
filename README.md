@@ -58,9 +58,14 @@ Data Persistence
 1.Account data is stored in a JSON file named accounts.json. This file is created automatically upon running the application, ensuring that all account information is saved between sessions.
 
 Contributing
-Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
-Fork the repository.
-Create a new branch for your feature or bug fix.
-Make your changes and commit them.
-Push to your forked repository.
-Open a Pull Request.
+1.Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
+
+2.Fork the repository.
+
+3.Create a new branch for your feature or bug fix.
+
+4.Make your changes and commit them.
+
+5.Push to your forked repository.
+
+6.Open a Pull Request.
