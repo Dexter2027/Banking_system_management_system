@@ -31,10 +31,6 @@ def withdraw(self, amount):
         print(f"Current balance: ₹{self.balance}")
         return self.balancee  
 
-    
-    def update_name(self, new_name):
-        self.name = new_name
-        prnt(f"Name updated to {self.name}")  
 
     
     def display_account_summary(self):
