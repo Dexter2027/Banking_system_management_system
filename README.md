@@ -5,6 +5,7 @@ Welcome to the Banking Management System project! This console-based application
 
 Features
 1.Account Creation: Users can create new bank accounts with unique account numbers and holder names.
+
 2.eposit and Withdrawal: Users can deposit money into their accounts and withdraw funds as needed.
 
 3.Fund Transfers: Users can transfer money between different accounts seamlessly.
