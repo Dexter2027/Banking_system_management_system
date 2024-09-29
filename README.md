@@ -21,43 +21,60 @@ Python
 JSON for data storage
 
 Installation and Setup
+
 1. Clone the Repository:
+
 git clone https://github.com/<your-github-username>/banking-management-system.git
 
 2. Navigate to the Project Directory:
+
 cd banking-management-system
 
 3. Run the Application:
+
 Make sure you have Python installed on your machine. You can run the application by executing
+
 python main.py
 
 Usage
 
 Creating a New Account
+
 1.Select the option to create an account.
+
 2.Enter a unique account number and the account holder's name.
+
 3.Provide an initial deposit amount (optional).
 
 Depositing Money
+
 1.Choose the deposit option.
+
 2.Enter your account number and the amount you wish to deposit.
 
 Withdrawing Money
+
 1.Select the withdrawal option.
+
 2.Input your account number and the amount to withdraw.
 
 Transferring Funds
+
 1.Choose the transfer option.
+
 2.Enter the sender's and receiver's account numbers, along with the transfer amount.
 
 Viewing Account Summary
+
 1.Select the option to view account summaries.
+
 2.Enter the account number to see its details.
 
 Data Persistence
 1.Account data is stored in a JSON file named accounts.json. This file is created automatically upon running the application, ensuring that all account information is saved between sessions.
 
 Contributing
+
 1.Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
 
 2.Fork the repository.
