@@ -1,11 +1,10 @@
-Banking Management Syste
+Banking Management System
 
 Overview
 Welcome to the Banking Management System project! This console-based application allows users to create and manage bank accounts, perform transactions such as deposits and withdrawals, transfer funds, and view account summaries. This project aims to provide a user-friendly interface for managing financial operations efficiently.
 
 Features
 1.Account Creation: Users can create new bank accounts with unique account numbers and holder names.
-
 2.eposit and Withdrawal: Users can deposit money into their accounts and withdraw funds as needed.
 
 3.Fund Transfers: Users can transfer money between different accounts seamlessly.
