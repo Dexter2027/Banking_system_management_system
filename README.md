@@ -1,31 +1,66 @@
-# Banking_system_management_system
+Banking Management Syste
 
 Overview
-
-The Banking System is a Python-based terminal application designed to simulate basic banking operations. It allows users 
-to create accounts, deposit and withdraw funds, transfer money between accounts, and view account balances.The system 
-provides a simple user interface that guides users through various banking tasks, ensuring a smooth experience.
+Welcome to the Banking Management System project! This console-based application allows users to create and manage bank accounts, perform transactions such as deposits and withdrawals, transfer funds, and view account summaries. This project aims to provide a user-friendly interface for managing financial operations efficiently.
 
 Features
-User Account Management
+1.Account Creation: Users can create new bank accounts with unique account numbers and holder names.
 
-Features
-1. User Account Management
-Create Account: Initialize new bank accounts by providing a unique account number, account holder's name, and an optional initial deposit.
-Update Account Information: Modify the account holder’s name as needed.
+2.eposit and Withdrawal: Users can deposit money into their accounts and withdraw funds as needed.
 
-2. Financial Transactions
-Deposit Funds: Add money to an existing account with validation to ensure positive amounts.
-Withdraw Funds: Remove money from an account with checks for sufficient balance and valid withdrawal amounts.
-Transfer Funds: Move money between two accounts, ensuring both accounts exist and the sender has sufficient funds.
+3.Fund Transfers: Users can transfer money between different accounts seamlessly.
 
-3. Account Summary
-Check Balance: View the current balance of a specific account.
-View Account Summary: Display comprehensive details of an account, including account number, holder's name, and balance.
+4.Account Summary: Users can view detailed summaries of their accounts, including balance information.
 
-4. Multiple Accounts Management
-View All Accounts: List all existing accounts with their summaries, facilitating easy management and overview.
+5.Data Persistence: All account data is saved in a JSON file, ensuring data is not lost between sessions.
 
-5. Data Persistence
-Persistent Storage: Utilize JSON files to store and retrieve account data, ensuring information is retained across sessions.
+Technologies Used
 
+Python
+
+JSON for data storage
+
+Installation and Setup
+1. Clone the Repository:
+git clone https://github.com/<your-github-username>/banking-management-system.git
+
+2. Navigate to the Project Directory:
+cd banking-management-system
+
+3. Run the Application:
+Make sure you have Python installed on your machine. You can run the application by executing
+python main.py
+
+Usage
+
+Creating a New Account
+1.Select the option to create an account.
+2.Enter a unique account number and the account holder's name.
+3.Provide an initial deposit amount (optional).
+
+Depositing Money
+1.Choose the deposit option.
+2.Enter your account number and the amount you wish to deposit.
+
+Withdrawing Money
+1.Select the withdrawal option.
+2.Input your account number and the amount to withdraw.
+
+Transferring Funds
+1.Choose the transfer option.
+2.Enter the sender's and receiver's account numbers, along with the transfer amount.
+
+Viewing Account Summary
+1.Select the option to view account summaries.
+2.Enter the account number to see its details.
+
+Data Persistence
+1.Account data is stored in a JSON file named accounts.json. This file is created automatically upon running the application, ensuring that all account information is saved between sessions.
+
+Contributing
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
+Fork the repository.
+Create a new branch for your feature or bug fix.
+Make your changes and commit them.
+Push to your forked repository.
+Open a Pull Request.
